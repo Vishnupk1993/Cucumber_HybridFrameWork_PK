@@ -8,7 +8,7 @@ And User clicks on the Login button
 Then User should get successfully logged in
 Examples:
 |userName                |password|
-|vishnu.menon742@gmail.com|Test@2024|
+|vishnu.test@gmail.com|Test@2024|
 |sasung@yopmail.com|Test@2024|
 
 Scenario: Login with invalid credentials
@@ -20,7 +20,7 @@ Then User should get a warning message about invalid credentials
 
 Scenario: Login with valid email and invalid password
 Given User navigates to login page
-When User enters valid email address "vishnu.menon742@gmail.com" into the email field
+When User enters valid email address "tester2@gmail.com" into the email field
 And User enters invalid password "123@2024" in the password field
 And User clicks on the Login button
 Then User should get a warning message about invalid credentials
